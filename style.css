@@ -1,4 +1,63 @@
 html {
-  height: 100%;
-  width: 100%;
+  height: 1440px;
+  width: 1173px;
+  background-color:#FDC7C7;
+
+
+  .header {
+    padding: 10px;
+    text-align: center;
+    background: #ffffff;
+    a href{text-align: right}
+  }
+  h1 {
+    font-size: 40px;
+    font-family: 'Jomolhari';
+    text-align: center;
+  }
+
+.footer {
+    padding: 10px;
+    background: #ffffff;
+  font-size: 10px
+}
+
+  .laba {
+    text-align: center;
+    background-size: 50px;
+  }
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #FDC7C7;
+  }
+
+  #image-gallery {
+    width: 35rem;
+    margin: 4rem auto;
+  }
+
+  #main-image {
+    width: 100%;
+    padding: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.8); 0px 4px 12px;
+  }
+
+  #thumbanail-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .thumbnail{
+    width: 100px;
+    height: 100px;
+    margin: 0 10rem;
+    cursor: pointer;
+  }
+  
 }
