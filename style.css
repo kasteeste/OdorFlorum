@@ -38,6 +38,15 @@ html {
     padding: 10px;
     background: #ffffff;
     font-size: 10px;
+    position: relative;
+}
+
+.contact-section {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
 }
 
 .footer button {
