@@ -64,8 +64,8 @@ html {
 
   .laba {
     text-align: center;
-    background-size: 50px;
-    padding: 20px;
+    background-size: 20px;
+    padding: 10px;
     overflow: hidden;
   }
   
@@ -77,10 +77,6 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  }
-  
-  body{
-    background-color: #FDC7C7;
   }
 
   #image-gallery {
@@ -119,11 +115,7 @@ html {
   .thumbnail:hover {
     transform: scale(1.1);
   }
-
-  .thumbnail.active {
-    border-color: #FDC7C7;
-  }
-
+  
   .sarkans {
   padding: 5px;
   text-align: center;
