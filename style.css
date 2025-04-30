@@ -18,7 +18,7 @@ html {
   }
 
   .header button {
-    background-color: #D3D3D3;
+    background-color: #f0f0f0;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
@@ -106,5 +106,17 @@ html {
     margin: 0 10rem;
     cursor: pointer;
   }
-  
+
+  .sarkans {
+  padding: 5px;
+  text-align: center;
+  background: #8B0000;
+  position: relative;
+  color: white; 
+  font-size: 32px;
+  }
+  .ieskats {
+    text-align: center;
+    font-size: 32px;
+  }
 }
