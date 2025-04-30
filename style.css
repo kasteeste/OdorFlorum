@@ -5,7 +5,7 @@ html {
 
 
   .header {
-    padding: 10px;
+    padding:8px;
     text-align: center;
     background: #ffffff;
     position: relative;
@@ -96,14 +96,14 @@ html {
     height: auto;
     padding: 1rem;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   #thumbnail-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
     margin-top: 1rem;
   }
 
