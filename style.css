@@ -198,6 +198,7 @@ html {
       font-size: 2rem;
       transition: .3s ease;
       font-family: "jomolhari";
+    z-index:1;
   }
   .off-screen-menu.active {
       left: 0; 
@@ -214,6 +215,7 @@ html {
       width: 40px;
       margin-right: auto;
       position: relative;
+    z-index:2;
   }
   .ham-menu span {
       height: 3px;
@@ -232,5 +234,14 @@ html {
   .ham-menu span:nth-child(3) {
     top: 75%;
   }
+
+
+/*galerijas video*/
+.video {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
   
 }
