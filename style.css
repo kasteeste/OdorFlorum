@@ -198,7 +198,6 @@ html {
       font-size: 2rem;
       transition: .3s ease;
       font-family: "jomolhari";
-      z-index: 1000;
   }
   .off-screen-menu.active {
       left: 0; 
