@@ -1,5 +1,5 @@
 html {
-  height: 2122px;
+  height: 1890px;
   width: 1140px;
   background-color:#FDC7C7;
   font-family: 'Jomolhari';
@@ -14,14 +14,16 @@ html {
 
   .top-right-button {
     position: absolute;
-    top: 10px;
+    top: 15px;
     right: 10px;
+    font-family: 'Jomolhari';
+    font-size: 18px;
   }
 
   .header button {
     background-color: #f0f0f0;
     border: none;
-    padding: 8px 25px;
+    padding: 10px 30px;
     cursor: pointer;
     border-radius: 6px;
   }
@@ -39,13 +41,12 @@ html {
     letter-spacing: 4px;
   }
 
-.akcija {
-  font-size: 20px;
-  font-family: 'Jomolhari';
-  text-align: center;
-  letter-spacing: 3px;
-}
-
+  .akcija {
+    font-size: 20px;
+    font-family: 'Jomolhari';
+    text-align: center;
+    letter-spacing: 3px;
+  }
 
 .footer {
     padding: 20px;
@@ -86,7 +87,7 @@ html {
     border: 1px solid black;
     padding: 10px 40px;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 8px;
 }
   .footer button a {
       text-decoration: none;
@@ -150,6 +151,7 @@ html {
   .ieskats {
     text-align: center;
     font-size: 32px;
+    letter-spacing: 5%;
   }
 
 /*sākums, jaunumi*/
@@ -243,5 +245,4 @@ html {
   display: flex;
 }
 
-  
 }
